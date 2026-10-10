@@ -13,8 +13,8 @@ C-a -> Move to the beginning of line.
 C-e -> Move to the end of the line.
 M-a -> Move to the beginning of sentence.
 M-e -> Move to ending of a sentence.
-M-< (Meta+ less than) -> Move to the beginning of the text.
-M-> (Meta _ greate than) -> Move to the ending of the text.
+M-< (Meta+ less than) -> Move to the beginning of the text(meaning move to the start of the buffer).
+M-> (Meta _ greate than) -> Move to the ending of the text(meaning move to the end of the buffer).
 C-x u -> Undo.
 
 Note:
