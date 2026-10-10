@@ -1,0 +1,50 @@
+C-<chr> -> Control + character in keyboard.
+M-<chr> -> ALT + character in keyboard.
+C-v->View Next Screen.
+M-v -> Move backward one Screen.
+C-l -> the screen moves under the active cursor position.
+C-n -> Move to next line.
+C-p -> Move to previous line.
+C-f -> Move to forward line.
+C-b -> Move to backward line.
+M-b -> Move backward by one word.
+M-f -> Move forward by one word.
+C-a -> Move to the beginning of line.
+C-e -> Move to the end of the line.
+M-a -> Move to the beginning of sentence.
+M-e -> Move to ending of a sentence.
+M-< (Meta+ less than) -> Move to the beginning of the text.
+M-> (Meta _ greate than) -> Move to the ending of the text.
+C-x u -> Undo.
+
+Note:
+To move by a specific number of characters or words use C-u numeric-digit+Commands above.
+
+C-g is used to stop a command which is taking too long to execute and it clears your command buffer also.
+
+C-x 1 -> Only open one window and delete all other windows.
+
+C-h k Key -> C-h k gives more information it opens a window for this specific documentation.
+
+To delete a character use <DEL> key usually Backspace.
+
+C-u numeric digit char(to insert or delete or command).
+C-d -> delete the next character after the cursor.
+M-<Backspace> -> Kill the word immediately before cursor
+M-d -> Kill the word after cursor.
+C-k -> Kill from cursor to end of line.
+M-k -> Kill to the end of sentence.
+C-Spc at the start of the word u want to delete and go the last character
+u want to delete and put the cursor there and C-w to remove all words from that selected cursor to cursor ended position.
+C-y -> it reinserts the killed line.(yanking only brings back killed lines not deleted)
+M-y -> Reverts every killed line.
+C-x 2 opens a 2 windows.
+C-x C-f -> Helps us load a file.(Find a file).
+C-x C-s -> Save the file.
+C-x C-b -> List Buffers.
+M-w -> Copy.
+C-y -> Paste.
+C-x b -> Will help you enter the buffer name and to switch to it.
+C-x s asks you about each file-visiting buffer which contains changes
+that you have not saved.  It asks you, for each such buffer, whether
+to save the buffer to its file.
