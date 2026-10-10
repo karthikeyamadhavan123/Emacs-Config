@@ -29,11 +29,11 @@ C-h k Key -> C-h k gives more information it opens a window for this specific do
 To delete a character use <DEL> key usually Backspace.
 
 C-u numeric digit char(to insert or delete or command).
-C-d -> delete the next character after the cursor.
-M-<Backspace> -> Kill the word immediately before cursor
+C-d -> delete the next character after the cursor(if u continously type it will delete new line character and continue deleting).
+M-<Backspace> -> Kill the word immediately before cursor.
 M-d -> Kill the word after cursor.
 C-k -> Kill from cursor to end of line.
-M-k -> Kill to the end of sentence.
+M-k -> Kill to the end of sentence(kill from active cursor only).
 C-Spc at the start of the word u want to delete and go the last character
 u want to delete and put the cursor there and C-w to remove all words from that selected cursor to cursor ended position.
 C-y -> it reinserts the killed line.(yanking only brings back killed lines not deleted)
@@ -48,3 +48,4 @@ C-x b -> Will help you enter the buffer name and to switch to it.
 C-x s asks you about each file-visiting buffer which contains changes
 that you have not saved.  It asks you, for each such buffer, whether
 to save the buffer to its file.
+C-y first, then M-y if you want an older entry.
