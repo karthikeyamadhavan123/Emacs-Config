@@ -26,3 +26,7 @@ Keep the configuration simple and understand every customization instead of rely
 ## Status
 
 Work in progress. The configuration will evolve as I learn Emacs and identify tools that improve my workflow.
+
+The final Emacs should look something like this.
+
+<img width="1536" height="1024" alt="Stark Theme" src="https://github.com/user-attachments/assets/d093be6a-70f4-464e-bc99-27539075047f" />
