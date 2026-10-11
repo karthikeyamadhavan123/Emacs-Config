@@ -8,6 +8,6 @@
 (tool-bar-mode -1)
 
 ;;finds the custom theme from themes directory
-(add-to-list 'custom-theme-load-path "~.emacs.d/themes")
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 ;;loads the theme.
 (load-theme 'stark t)
